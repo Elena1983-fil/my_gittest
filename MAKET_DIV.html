@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+
+		*{font-family: sans-serif}
+
+		body{margin: 0}
+
+		div p {font-size: 18px}
+
+		.head_and_foot{
+			background-color: lightblue;
+			text-transform: uppercase; 
+			text-align: center;
+			color:blue;
+			padding: 1px 		
+		}
+		
+	</style>
+</head>
+<body>
+	<!-- обернуть текст в заголовок -->
+	<div class="head_and_foot"> <h2  style="margin: 10px 0">привет участникам соревнований!</h2></div>
+	<div style=" background-color: yellow;">
+		<!-- ширина добжна быть фиксированной, добавить паддинг со всех сторон -->
+		<div style="width:170px; float: left; padding: 15px">
+			<!-- в заголовок (абзац) нужно обернуть толькостекст -->
+			 <div><h4>Виды спорта:</h4>
+				<!-- уменьшить левый паддинг у списка -->
+				<ul style="font-weight: normal; text-align: left; list-style-type: disc; padding-left: 20px">
+					<li><a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%8C%D0%BA%D0%BE%D0%B1%D0%B5%D0%B6%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D0%BE%D1%80%D1%82" target="_blank" style="color: blue">конькобежный спорт</a>				
+					</li>
+					<li><a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B8%D0%B0%D1%82%D0%BB%D0%BE%D0%BD" target="_blank" style="color: blue">биатлон</a>				
+					</li>
+					<li><a href="https://ru.wikipedia.org/wiki/%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB" target="_blank" style="color: blue">футбол</a>				
+					</li>
+					<li><a href="https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D0%B5%D0%BB%D1%8C%D0%B1%D0%B0_%D0%B8%D0%B7_%D0%BB%D1%83%D0%BA%D0%B0_(%D0%B2%D0%B8%D0%B4_%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0)" target="_blank" style="color: blue">стрельба из лука</a>				
+					</li>
+					<li><a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D1%8B%D0%B6%D0%BE%D0%BA_%D0%B2_%D0%B4%D0%BB%D0%B8%D0%BD%D1%83" target="_blank" style="color: blue">прыжки в длину</a>			
+					</li>
+					<li><a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D1%8B%D0%B6%D0%BE%D0%BA_%D0%B2_%D0%B2%D1%8B%D1%81%D0%BE%D1%82%D1%83" target="_blank" style="color: blue">прыжки в высоту</a>	
+					</li>
+					<li><a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%B3%D1%83%D1%80%D0%BD%D0%BE%D0%B5_%D0%BA%D0%B0%D1%82%D0%B0%D0%BD%D0%B8%D0%B5" target="_blank" style="color: blue">фигурное катание</a>		
+					</li>
+					<li><a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D0%BB%D0%B0%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5" target="_blank" style="color: blue">синхронное плавание</a>		
+					</li>
+					<li><a href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D1%85%D0%BC%D0%B0%D1%82%D1%8B" target="_blank" style="color: blue">шахматы</a>		
+					</li>
+					<li><a href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D1%88%D0%BA%D0%B8" target="_blank" style="color: blue">шашки</a>		
+					</li>				
+				</ul>
+			</div>
+			
+		</div>
+		<!-- нужно добавить паддинг со всех сторон -->
+		<div style="background-color: white;  margin-left: 200px; background-image: url('./images/football.png'); background-position: right top; background-repeat: repeat-y; padding: 1px 20px 10px">
+			<!-- неверно менять маржин на паддинг  -->
+			 <h3 style=" text-align:center; text-transform:uppercase">Футбол </h3>
+			<!-- для отступа нужно использовать маржин -->
+			<img src="./images/football.jpg" alt="football" ; style="float:left; margin: 0px 20px 5px 0px">
+			<p>	Футбол &mdash; командный вид спорта, в котором целью является забить мяч в ворота соперника ногами или другими частями тела (кроме рук) большее количество раз, чем команда соперника.</p>
+			<!-- лишний паддинг -->
+			<p >Есть 17 официальных правил игры, каждое из которых содержит список оговорок и руководящих принципов. Эти правила предназначены для применения на всех уровнях футбола, хотя есть некоторые изменения для таких групп, как юниоры, взрослые, женщины и люди с ограниченными физическими возможностями. Законы очень часто формулировались в общих чертах, которые позволяют упростить их применения в зависимости от характера игры. </p>
+			
+			<div style="clear: both"></div>		
+		</div>
+		<div style="clear: both"></div><!-- сюда тоже нужно добавить технический div -->
+	</div>
+	<!-- обернуть текст в заголовок -->
+	<div  class="head_and_foot"> <h2>Главное не победа, а участие!</h2></div>
+</body>
+</html>
